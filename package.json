@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p-dash",
+  "name": "neobytescore-p2p",
   "version": "1.1.6",
-  "description": "Interface to the dash P2P network for bitcore-dash",
+  "description": "Interface to the neobytes P2P network for neobytescore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -44,21 +44,21 @@
     }
   ],
   "keywords": [
-    "bitcoin",
-    "bitcore"
+    "neobytes",
+    "neobytescore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/bitcore-p2p-dash.git"
+    "url": "https://github.com/neobytes-project/neobytescore-p2p.git"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.15.2",
+    "neobytescore-lib": "^0.15.2",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build-dash": "dashpay/bitcore-build-dash",
+    "neobytescore-build": "neobytes-project/neobytescore-build",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

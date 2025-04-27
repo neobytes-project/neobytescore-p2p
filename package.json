@@ -52,7 +52,7 @@
     "url": "https://github.com/neobytes-project/neobytescore-p2p.git"
   },
   "dependencies": {
-    "neobytescore-lib": "^0.15.2",
+    "neobytescore-lib": "neobytes-project/neobytescore-lib",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
